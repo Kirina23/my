@@ -16,6 +16,9 @@
    .button_main {
       width: 250px;
    }
+   .feedback__wrapper {
+         width: 100%;
+      }
    }
    
 
@@ -35,7 +38,34 @@
       font-size: 26px;
       line-height: 40px;
       }
+   .catalog__content {
+      justify-content: center;
+      }
+
+   .feedback {
+            
+      &__wrapper {
+         margin-top: 60px;
+               }
    
+         &-items {
+            display: flex;
+            justify-content: center;
+            margin: 0 -30px;
+         }
+   
+         &-item {
+            margin: 0 30px;
+            margin-top: 60px;
+   
+            img {
+               min-width: 80%;
+            }
+   
+            
+         }
+      }
+
    }
    
    
@@ -80,5 +110,8 @@
             width: 70%;
          }
       }
+   }
+   .catalog__tab {
+      font-size: 14px;
    }
 }

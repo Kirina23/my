@@ -37,15 +37,17 @@
       }
    }
    &__content {
-      margin-top: 60px;
       display: none;
-      justify-content: space-between;
+      justify-content: center;
       flex-wrap: wrap;
+      margin: 0 -20px;
+      margin-top: 60px;
       &_active {
          display: flex;
-      }
+            }
    }
    &-item {
+      margin: 0 20px;
       padding: 20px 20px 26px 20px;
       width: 303px;
       min-height: 400px;
