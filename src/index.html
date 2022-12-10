@@ -11,7 +11,7 @@
    <title> Puls </title>
 </head>
 <body>
-   <section class="promo">
+   <section id="up" class="promo">
       <div class="container">
          <header class="header">
             <a class="header__logo" href="">
@@ -80,7 +80,7 @@
                </div>
                <div class="benefit__item">
                   <div class="benefit__icons">
-                     <img src="img/icons/heart.png" alt="heart" class="benefit__icon">
+                     <img src="img/icons/heart.png" alt="heart" class="benefit__icon_animated">
                      </div>
                   <div class="benefit__subheader"> Заботимся о здоровье </div>
                   <div class="benefit__text"> Мы работаем для того, чтобы
@@ -111,10 +111,10 @@
             Просто заполните форму заявки <br>
             и мы перезвоним вам в течении 10 минут
          </div>
-         <form class="feed-form" action="#">
-            <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" placeholder="Ваш телефон" type="number">
-            <input name="email" required placeholder="Ваш E-mail" type="email">
+         <form id="choice" class="feed-form" action="#">
+            <input name="name" placeholder="Ваше имя" type="text">
+            <input name="phone" placeholder="Ваш телефон" >
+            <input name="email" placeholder="Ваш E-mail" type="email">
          <!-- <input required placeholder="заказать кОНСУЛЬТАЦИЮ" type="submit"> -->  
          <button class="button button_submit"> заказать консультацию </button>
          </form>
@@ -613,9 +613,9 @@
       <div class="modal__subtitle"> Просто заполните форму заявки </div>
       <div class="modal__descr"> и мы перезвоним вам в течении 10 минут </div>
       <form class="feed-form feed-form_mt25" action="#">
-         <input name="name" required placeholder="Ваше имя" type="text">
-         <input name="phone" placeholder="Ваш телефон" type="number">
-         <input name="email" required placeholder="Ваш E-mail" type="email">
+         <input name="name" placeholder="Ваше имя" type="text">
+         <input name="phone" placeholder="Ваш телефон">
+         <input name="email" placeholder="Ваш E-mail" type="email">
          <!-- <input required placeholder="заказать кОНСУЛЬТАЦИЮ" type="submit"> -->
          <button class="button button_submit"> заказать консультацию </button>
       </form>
@@ -626,9 +626,9 @@
    <div class="modal__subtitle"> Ваш заказ: </div>
    <div class="modal__descr"> Пульсометр Polar FT1 </div>
    <form class="feed-form feed-form_mt25" action="#">
-      <input name="name" required placeholder="Ваше имя" type="text">
-      <input name="phone" placeholder="Ваш телефон" type="number">
-      <input name="email" required placeholder="Ваш E-mail" type="email">
+      <input name="name"  placeholder="Ваше имя" type="text">
+      <input name="phone" placeholder="Ваш телефон" >
+      <input name="email"  placeholder="Ваш E-mail" type="email">
       <!-- <input required placeholder="заказать кОНСУЛЬТАЦИЮ" type="submit"> -->
       <button class="button button_submit"> Купить </button>
    </form>
@@ -643,9 +643,16 @@
 
 </div>
 
+<a class="pageup" href="#up" >
+   <img src="img/icons/circle-chevron-up-solid.svg" alt="pageup">
+</a>
+
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/script.js"> </script>
 </body>
 </html>
